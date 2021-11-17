@@ -5,7 +5,7 @@ from colorama import Fore,Back,init
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from platform import system
-from Queue import Queue
+from Queue import queue
 from time import strftime
 from urlparse import urlparse
 from urllib2 import urlopen
